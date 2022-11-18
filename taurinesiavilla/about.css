@@ -1,0 +1,40 @@
+s*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eec6819c;
+    background-image: url(image/backad.jpg); 
+    background-size: 1500px;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E4B7AD ;
+    color: black;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+
+.teks{
+    width: 550px;
+    
+}
+
+.saya{
+    width: 1130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+i{
+    font-size: 28px;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
